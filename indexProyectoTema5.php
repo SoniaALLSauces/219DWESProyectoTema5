@@ -37,20 +37,20 @@
                     <tr class="tr"> 
                         <td class="ejercicio"><h3>Ejercicio 00. VARIABLES SUPERGLOBALES y PHPINFO()</h3>
                             <h5>Mostrar el contenido de las variables superglobales y phpinfo().</h5></td>
-                        <td class="tdimg"><a href="codigoPHP/ejercicio01PDO.php"><img src="webroot/images/ejecutar.png" alt="ejecutar"></a></td>
-                        <td class="tdimg"><a href="mostrarCodigo/muestraEjercicio01PDO.php"><img src="webroot/images/mostrar.png" alt="mostrar"></a></td>
+                        <td class="tdimg"><a href="codigoPHP/ejercicio00.php"><img src="webroot/images/ejecutar.png" alt="ejecutar"></a></td>
+                        <td class="tdimg"><a href="mostrarCodigo/muestraEjercicio00.php"><img src="webroot/images/mostrar.png" alt="mostrar"></a></td>
                     </tr>
                     <tr class="tr"> 
                         <td class="ejercicio"><h3>Ejercicio 01. CONTROL DE ACCESO CON LA FUNCION HEADER()</h3>
                             <h5>Desarrollo de un control de acceso con identificación del usuario basado en la función header()</h5></td>
-                        <td class="tdimg"><a href="codigoPHP/ejercicio02PDO.php"><img src="webroot/images/ejecutar.png" alt="ejecutar"></a></td>
-                        <td class="tdimg"><a href="mostrarCodigo/muestraEjercicio02PDO.php"><img src="webroot/images/mostrar.png" alt="mostrar"></a></td>
+                        <td class="tdimg"><a href="codigoPHP/ejercicio01.php"><img src="webroot/images/ejecutar.png" alt="ejecutar"></a></td>
+                        <td class="tdimg"><a href="mostrarCodigo/muestraEjercicio01.php"><img src="webroot/images/mostrar.png" alt="mostrar"></a></td>
                     </tr>
                     <tr class="tr"> 
                         <td class="ejercicio"><h3>Ejercicio 02. CONTROL DE ACCESO CON LA FUNCION HEADER() USANDO UNA TABLA "Usuario"</h3>
                             <h5>Desarrollo de un control de acceso con identificación del usuario basado en la función header() y en el uso de una tabla “Usuario” de la base de datos. (PDO).</h5></td>
-                        <td class="tdimg"><a href="codigoPHP/ejercicio03PDO.php"><img src="webroot/images/ejecutar.png" alt="ejecutar"></a></td>
-                        <td class="tdimg"><a href="mostrarCodigo/muestraEjercicio03PDO.php"><img src="webroot/images/mostrar.png" alt="mostrar"></a></td>
+                        <td class="tdimg"><a href="codigoPHP/ejercicio02.php"><img src="webroot/images/ejecutar.png" alt="ejecutar"></a></td>
+                        <td class="tdimg"><a href="mostrarCodigo/muestraEjercicio02.php"><img src="webroot/images/mostrar.png" alt="mostrar"></a></td>
                     </tr>
                     
                     
