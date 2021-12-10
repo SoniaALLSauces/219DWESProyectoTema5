@@ -19,6 +19,15 @@
         <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@500&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+        <style>
+            .sql0{width: 4%;
+                  background: white;}
+            .sql{width: 32%;
+                 background: white;}
+            .sql>*{border: 1px solid #BF2411;
+                   border-radius: 10px;
+                   padding: 5px;}
+        </style>
     </head>
     <body class="container">
 	<header class="header">
@@ -27,7 +36,21 @@
 	<main class="main">
             <section>
                 <h2><a href="../proyectoDWES/indexProyectoDWES.php">DWES</a> - Tema 5. Desarrollo de Aplicaciones Web utilizando Código Embebido</h2>
-                <h3>Prácticas con Autentificación y Contro de Acceso</h3>            
+                <h3>Prácticas con Autentificación y Contro de Acceso</h3>
+                <table>
+                    <tr class="tr">
+                        <td class="ejercicio" colspan="4"><a href="mostrarCodigo/muestraCreaDepartamentos.php">Scripts Crear / CargaInicial / Borrar Departamentos y Usuarios</a></td>
+                    </tr>
+                    <tr class="tr">
+                        <th class="ejercicio sql0"></td>
+                        <th class="ejercicio sql"><a href="scriptDB/creaDAW219DBDepartamentos1&1.php">CREAR TABLAS <span>Tabla</span></a></td>
+                        <th class="ejercicio sql"><a href="scriptDB/cargaInicialDAW219DBDepartamentos1&1.php">CARGA INICIAL <span>Tabla</span></a></td>
+                        <th class="ejercicio sql"><a href="scriptDB/borraDAW219DBDepartamentos1&1.php">BORRAR TABLAS <span>Tabla</span></a></td>
+                    </tr>
+                    <tr class="tr">
+                        <td class="ejercicio" colspan="4"><a href="mostrarCodigo/muestraConfigDBPDO.php">Fichero de Configuración</a></td>
+                    </tr>
+                </table>
                 <table>
                     <tr>
                         <th></th>
@@ -42,7 +65,7 @@
                     </tr>
                     <tr class="tr"> 
                         <td class="ejercicio"><h3>Ejercicio 01. CONTROL DE ACCESO CON LA FUNCION HEADER()</h3>
-                            <h5>Desarrollo de un control de acceso con identificación del usuario basado en la función header()</h5></td>
+                            <h5>Desarrollo de un control de acceso con identificación del usuario (admin/paso) basado en la función header()</h5></td>
                         <td class="tdimg"><a href="codigoPHP/ejercicio01.php"><img src="webroot/images/ejecutar.png" alt="ejecutar"></a></td>
                         <td class="tdimg"><a href="mostrarCodigo/muestraEjercicio01.php"><img src="webroot/images/mostrar.png" alt="mostrar"></a></td>
                     </tr>
@@ -51,6 +74,12 @@
                             <h5>Desarrollo de un control de acceso con identificación del usuario basado en la función header() y en el uso de una tabla “Usuario” de la base de datos. (PDO).</h5></td>
                         <td class="tdimg"><a href="codigoPHP/ejercicio02.php"><img src="webroot/images/ejecutar.png" alt="ejecutar"></a></td>
                         <td class="tdimg"><a href="mostrarCodigo/muestraEjercicio02.php"><img src="webroot/images/mostrar.png" alt="mostrar"></a></td>
+                    </tr>
+                    <tr class="tr"> 
+                        <td class="ejercicio"><h3>Ejercicio 03. PROYECTO LOGINLOGOUT</h3>
+                            <h5></h5></td>
+                        <td class="tdimg"><a href="../219DWESProyectoLoginLogoutTema5/indexProyectoLoginLogoutTema5.php"><img src="webroot/images/ejecutar.png" alt="ejecutar"></a></td>
+                        <td class="tdimg"><a href=""><img src="webroot/images/mostrar.png" alt="mostrar"></a></td>
                     </tr>
                     
                     
@@ -66,12 +95,12 @@
         <footer class="footer">
             <nav class="fnav">
                 <ul>
-                    <li class="ftexto"><a href="indexProyectoDWES.php">&copy 2020-21. Sonia Anton LLanes</a></li>
+                    <li class="ftexto"><a href="../index.html">&copy 2020-21. Sonia Anton LLanes</a></li>
                     <li>
                         
                         <a class="maxMedia" href="doc/curriculum_SALL.pdf" target="_blank"><img src="webroot/images/CV.png" alt="imagen_CV"></a>
                         <a class="maxMedia" href=""><img src="webroot/images/linkedin.png" alt="imagen_linkedIn"></a>
-                        <a class="maxMedia" href="https://github.com/SoniaALLSauces" target="_blank"><img src="webroot/images/github.png" alt="imagen_github"></a>
+                        <a class="maxMedia" href="https://github.com/SoniaALLSauces/219DWESProyectoTema5.git" target="_blank"><img src="webroot/images/github.png" alt="imagen_github"></a>
                     </li>
                 </ul>
             </nav>
